@@ -1,0 +1,12 @@
+{
+  "name": "sprit-cas",
+  "version": "1.0.0",
+  "description": "动画",
+  "main": "index.js",
+  "author": "rrafa",
+  "license": "MIT",
+  "scripts": {
+    "start": "./index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
