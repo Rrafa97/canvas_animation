@@ -2,16 +2,19 @@
 
 window.addEventListener('load', function () {
     const canvas = document.getElementById('canvasInd');
+    canvas.width = 100;
+    canvas.height = 70;
     const context = canvas.getContext('2d');
     context.width = 50;
     context.height = 50;
 
+    let xs = 0;
     class Dog {
         constructor(animation) {
             this.animation = animation;
             this.width = 50;
             this.height = 50;
-            this.x = 0;
+            this.x = -(xs * this.width);
             this.y = this.animation.height - this.height;
             this.img = document.getElementById('dog');
         }
